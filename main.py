@@ -1,8 +1,8 @@
 from lib.perpetual import Perpetual
 import numpy as np
 
-access_id = "0AAABEAF2DAC4722AE49D6E0FF6C5760"  # Replace with your access id
-secret_key = "7D1E4A02A8E9E518AEA065CF3F4B42E4CB35CAD81C2CBC44"  # Replace with your secret key
+access_id = ""  # Replace with your access id
+secret_key = ""  # Replace with your secret key
 
 market = 'TRXUSDT'
 leverage = 5
