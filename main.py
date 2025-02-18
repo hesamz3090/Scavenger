@@ -35,10 +35,13 @@ if position['message'] == 'OK':
         if buy_confirm or sell_confirm:
 
             now_price = float(client.get_price(market)['data'][0]['price'])
+
             asks_max_volume = max(asks_volumes)
             bids_max_volume = max(bids_volumes)
+
             asks_max_index = asks_volumes.index(asks_max_volume)
             bids_max_index = bids_volumes.index(bids_max_volume)
+
             if buy_confirm:
                 side = 'buy'
                 print('is in buy')
